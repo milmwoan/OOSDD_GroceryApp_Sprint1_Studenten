@@ -362,4 +362,18 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# Oefenen
+secrets.json        # Exact het bestand 'secrets.json'
+
+*.dll               # Alle .dll-bestanden (in alle mappen)
+*.exe               # Alle .exe-bestanden (in alle mappen)
+*.log               # Alle .log-bestanden (in alle mappen)
+*.pdb               # Alle .pdb-bestanden (in alle mappen)
+
+bin/                # De map 'bin' en alles daarin
+obj/                # De map 'obj' en alles daarin
+.nuget/             # De map '.nuget' en alles daarin
+packages/           # De map 'packages' en alles daarin
+platforms/          # De map 'platforms' en alles daarin
+.vs/                # De Visual Studio-map en alles daarin
 .idea/
