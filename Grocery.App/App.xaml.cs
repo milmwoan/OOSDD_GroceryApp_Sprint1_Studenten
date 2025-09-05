@@ -5,6 +5,7 @@
         public App()
         {
             InitializeComponent();
+            //testTest
 
             MainPage = new AppShell();
         }
